@@ -8,8 +8,8 @@
 #define SCREEN_WIDTH          854
 // #define SCREEN_HEIGHT         240
 #define SCREEN_HEIGHT         480
-#define SCALE_WIDTH           854 
-#define SCALE_HEIGHT          3480
+#define SCALE_WIDTH           480 
+#define SCALE_HEIGHT          320
 
 #define SCREEN_BPP            16
 #define SURFACE_FLAGS         SDL_SWSURFACE
