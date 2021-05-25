@@ -100,7 +100,7 @@
 #define MYKEY_SELECT        SDLK_RSHIFT
 #define MYKEY_TRANSFER      SDLK_RETURN
 #define PATH_DEFAULT        "/"
-#define FILE_SYSTEM         "/dev/sda4"
+#define FILE_SYSTEM         "/dev/mmcblk0p3"
 #endif
 
 #endif
