@@ -55,16 +55,16 @@ const int CWindow::execute(void)
                 SDL_Event key_event;
                 switch (l_event.jbutton.button)
                 {
-                case 6: //up
+                case 8: //up
                     key_event.key.keysym.sym = MYKEY_UP;
                     break;
-                case 7: //down
+                case 9: //down
                     key_event.key.keysym.sym = MYKEY_DOWN;
                     break;
-                case 8: //left
+                case 10: //left
                     key_event.key.keysym.sym = MYKEY_LEFT;
                     break;
-                case 9: //right
+                case 11: //right
                     key_event.key.keysym.sym = MYKEY_RIGHT;
                     break;
                 case 0: //a
@@ -84,6 +84,12 @@ const int CWindow::execute(void)
                     break;
                 case 5: //r
                     key_event.key.keysym.sym = MYKEY_PAGEDOWN;
+                    break;
+                case 12: //l
+                    key_event.key.keysym.sym = MYKEY_SYSTEM;
+                    break;
+                case 13: //r
+                    key_event.key.keysym.sym = MYKEY_TRANSFER;
                     break;
                 
                 default:
