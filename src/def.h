@@ -8,8 +8,8 @@
 #define SCREEN_WIDTH          854
 // #define SCREEN_HEIGHT         240
 #define SCREEN_HEIGHT         480
-#define SCALE_WIDTH           854  
-#define SCALE_HEIGHT          480
+#define SCALE_WIDTH           480  
+#define SCALE_HEIGHT          320
 
 #define SCREEN_BPP            16
 #define SURFACE_FLAGS         SDL_SWSURFACE
@@ -99,7 +99,7 @@
 #define MYKEY_OPERATION     SDLK_a
 #define MYKEY_SELECT        SDLK_RSHIFT
 #define MYKEY_TRANSFER      SDLK_RETURN
-#define PATH_DEFAULT        "/"
+#define PATH_DEFAULT        "/roms"
 #define FILE_SYSTEM         "/dev/mmcblk0p3"
 #endif
 
