@@ -15,11 +15,11 @@
 #define SURFACE_FLAGS         SDL_SWSURFACE
 #define MS_PER_FRAME          33
 // Panel
-#define LINE_HEIGHT           15
-#define NB_VISIBLE_LINES      14
+#define LINE_HEIGHT           8
+#define NB_VISIBLE_LINES      26
 #define Y_LIST                17
 #define Y_HEADER              3
-#define Y_FOOTER              150
+#define Y_FOOTER              228
 #define H_FOOTER              13
 // Dialogs
 #define DIALOG_BORDER         2
