@@ -8,16 +8,16 @@
 #define SCREEN_WIDTH          854
 // #define SCREEN_HEIGHT         240
 #define SCREEN_HEIGHT         480
-#define SCALE_WIDTH           480 
-#define SCALE_HEIGHT          320
+#define SCALE_WIDTH           854
+#define SCALE_HEIGHT          480
 
 #define SCREEN_BPP            16
 #define SURFACE_FLAGS         SDL_SWSURFACE
 #define MS_PER_FRAME          33
 // Panel
-#define LINE_HEIGHT           20
-#define NB_VISIBLE_LINES      19
-#define Y_LIST                17
+#define LINE_HEIGHT           15
+#define NB_VISIBLE_LINES      14
+#define Y_LIST                30
 #define Y_HEADER              3
 #define Y_FOOTER              228
 #define H_FOOTER              13
